@@ -11,7 +11,7 @@ function App() {
         <List people={people} />
         <button
           onClick={() => {
-            console.log("You clicked");
+            setPeople([]);
           }}
         >
           Clear all
